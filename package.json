@@ -3,6 +3,10 @@
     "version": "1.0.0",
     "main": "index.js",
     "license": "MIT",
+    
+    /*"npm run dev" faz com que o nodemon reinicie o servidor automaticamente a cada nova atualização do código, sem a necessidade de
+    desligar e ligar o servidor manualmente, facilitando muito o trabalho.
+    */
     "scripts": {
         "dev": "nodemon src/server.js"
     },
@@ -11,6 +15,7 @@
         "mongoose": "^5.7.4",
         "multer": "^1.4.2"
     },
+    //nodemon é opcional, mas recomendável para que não seja necessário reiniciar o servidor a cada atualização do código
     "devDependencies": {
         "nodemon": "^1.19.1"
     }
