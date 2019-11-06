@@ -12,7 +12,7 @@
     },
     "dependencies": {
         "express": "4.17.1",
-        "mongoose": "^5.7.4",
+        "mongoose": "^5.7.5",
         "multer": "^1.4.2"
     },
     //nodemon é opcional, mas recomendável para que não seja necessário reiniciar o servidor a cada atualização do código
